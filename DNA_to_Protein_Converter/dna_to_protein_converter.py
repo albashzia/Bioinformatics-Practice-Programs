@@ -18,3 +18,5 @@ table = {
     }
 
 dna_sequence = input("Enter DNA sequence: ")
+
+protein = ""
