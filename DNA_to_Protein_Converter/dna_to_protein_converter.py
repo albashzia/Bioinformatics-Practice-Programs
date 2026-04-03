@@ -20,3 +20,7 @@ table = {
 dna_sequence = input("Enter DNA sequence: ")
 
 protein = ""
+
+for i in range(0, len(dna_sequence) - 2, 3):
+    codon = dna_sequence[i:i+3]
+    protein = protein + table[codon]
