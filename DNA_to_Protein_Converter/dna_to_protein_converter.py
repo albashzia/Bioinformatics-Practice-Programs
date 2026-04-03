@@ -16,3 +16,5 @@ table = {
         'TAC':'Y', 'TAT':'Y', 'TAA':'*', 'TAG':'*',
         'TGC':'C', 'TGT':'C', 'TGA':'*', 'TGG':'W',
     }
+
+dna_sequence = input("Enter DNA sequence: ")
