@@ -24,3 +24,14 @@ protein = ""
 for i in range(0, len(dna_sequence) - 2, 3):
     codon = dna_sequence[i:i+3]
     protein = protein + table[codon]
+
+colored = ""
+for aa in protein:
+    if aa == 'M':
+        colored = colored + "\033[91mM\033[0m"
+    elif aa == '*':
+        colored = colored + "*"
+    else:
+        colored = colored + aa
+
+print(colored)
